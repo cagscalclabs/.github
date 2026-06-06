@@ -16,7 +16,7 @@ jobs:
         with:
           # --- Auth ---
           token: ${{ secrets.METRICS_TOKEN }}
-          user: cagscalclabs
+          user: acagliano
 
           # --- Output ---
           filename: metrics.svg

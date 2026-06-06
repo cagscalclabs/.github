@@ -17,7 +17,7 @@ differential timing analysis, SAST, and a published security whitepaper. A forma
 → [Docs](https://cagscalclabs.github.io/lwip-ce/) • [Whitepaper](https://github.com/cagscalclabs/lwip-ce/releases/download/whitepaper-latest/whitepaper.pdf)
 
 **[CryptX](https://github.com/cagscalclabs/cryptx)** — Embedded cryptography suite for eZ80.  
-AES, RSA, SHA-256, HMAC, HKDF, PBKDF2, X25519, PKCS#1, PKCS#8, SEC1.
+AES, RSA, SHA-256, HMAC, PBKDF2, SECT233k1, PKCS#1, PKCS#8, SEC1.
 
 ---
 

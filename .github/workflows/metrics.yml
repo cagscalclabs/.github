@@ -43,6 +43,7 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_threshold: 0%
           plugin_languages_colors: github
+          plugin_languages_ignored: mcfunction
 
           # --- Recent activity ---
           # Keep short; the goal is showing the project is alive, not a changelog

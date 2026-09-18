@@ -1,23 +1,15 @@
-![Metrics](https://raw.githubusercontent.com/cagscalclabs/cagscalclabs/main/metrics.svg)
-
 ## CagsCalcLabs
 
 Embedded networking and security research on constrained hardware.  
-Primary platform: TI-84+ CE — eZ80 CPU, 60KB RAM, 48MHz, no OS, 
+Primary platform: TI-84+ CE — eZ80 CPU, 60KB RAM, 48MHz, no OS,
 no hardware crypto acceleration.
 
 ---
 
 ## Projects
 
-**[lwIP-CE](https://github.com/cagscalclabs/lwip-ce)** — TCP/IP and TLS 1.3 on a calculator.  
-A port of lwIP with USB CDC Ethernet, a custom memory allocator, and a full 
-TLS 1.3 client stack fit into 60KB of shared RAM. CAVP-validated primitives, 
-differential timing analysis, SAST, and a published security whitepaper. A formalized continuation of CryptX.  
-→ [Docs](https://cagscalclabs.github.io/lwip-ce/) • [Whitepaper](https://github.com/cagscalclabs/lwip-ce/releases/download/whitepaper-latest/whitepaper.pdf)
-
-**[CryptX](https://github.com/cagscalclabs/cryptx)** — Embedded cryptography suite for eZ80.  
-AES, RSA, SHA-256, HMAC, PBKDF2, SECT233k1, PKCS#1, PKCS#8, SEC1.
+<!-- PROJECTS_START -->
+<!-- PROJECTS_END -->
 
 ---
 

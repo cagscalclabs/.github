@@ -1,58 +1,32 @@
-name: Metrics
+name: Update Projects
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # regenerate daily at midnight UTC
-  workflow_dispatch:        # allow manual trigger from Actions tab
+    - cron: '0 0 * * *'   # daily at midnight UTC
+  workflow_dispatch:        # manual trigger from Actions tab
 
 jobs:
-  github-metrics:
+  update-projects:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # needed to commit the generated SVG back to the repo
+      contents: write
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          # --- Auth ---
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: cagscalclabs
+          python-version: '3.12'
 
-          # --- Output ---
-          filename: metrics.svg
-          output_action: commit
-          committer_message: "chore: update metrics [skip ci]"
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_projects.py
 
-          # --- Base sections ---
-          # header:       org name, avatar, and join date
-          # activity:     recent push/PR/issue events
-          # repositories: aggregate repo stats
-          # omitting 'community' (followers etc) intentionally
-          base: header, activity, repositories
-
-          # --- Featured repositories ---
-          # Always shown first; these are the two projects that define the org
-          plugin_repositories: yes
-          plugin_repositories_featured: cagscalclabs/lwip-ce, cagscalclabs/cryptx
-          plugin_repositories_pinned: 2
-
-          # --- Language breakdown ---
-          # C and eZ80 assembly dominating the bar is a visual signal of
-          # low-level embedded work; cap at 6 to keep it readable
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_threshold: 0%
-          plugin_languages_colors: github
-          plugin_languages_ignored: mcfunction
-
-          # --- Recent activity ---
-          # Keep short; the goal is showing the project is alive, not a changelog
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_filter: push, issue, pr, release
-
-          # --- Sponsors card ---
-          # Call to action for funding; shown at the bottom of the card
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git diff --cached --quiet || git commit -m "chore: update projects [skip ci]"
+          git push

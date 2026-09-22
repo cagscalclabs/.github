@@ -18,13 +18,13 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated today
-
-**[discord-ce-server](https://github.com/cagscalclabs/discord-ce-server)** — Discord on a TI-84+ CE. Relay bot server bridging calculators to Discord over TLS, with OIDC device login and verified account linking. Bot posts on behalf of authenticated users.  
 ★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
 
+**[discord-ce-server](https://github.com/cagscalclabs/discord-ce-server)** — Discord on a TI-84+ CE. Relay bot server bridging calculators to Discord over TLS, with OIDC device login and verified account linking. Bot posts on behalf of authenticated users.  
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 2 days ago
+
 **[discord-ce-client](https://github.com/cagscalclabs/discord-ce-client)** — TI-84+ CE Discord client — real-time messaging over the Discord Bot API via lwIP-CE and TLS. Device-code OAuth2/OIDC login, per-server session tokens, channel/server picker, live chat and history.  
-★ 0 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated yesterday
+★ 0 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated 2 days ago
 <!-- PROJECTS_END -->
 
 ---

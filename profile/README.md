@@ -17,14 +17,14 @@ no hardware crypto acceleration.
 ★ 14 &nbsp;•&nbsp; Assembly &nbsp;•&nbsp; updated 3 months ago  
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
-**[shards-ce](https://github.com/cagscalclabs/shards-ce)** — No description.  
-★ 0 &nbsp;•&nbsp; — &nbsp;•&nbsp; updated today
-
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
 ★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
 
+**[shards-ce](https://github.com/cagscalclabs/shards-ce)** — No description.  
+★ 0 &nbsp;•&nbsp; — &nbsp;•&nbsp; updated yesterday
+
 **[discord-ce-server](https://github.com/cagscalclabs/discord-ce-server)** — Discord on a TI-84+ CE. Relay bot server bridging calculators to Discord over TLS, with OIDC device login and verified account linking. Bot posts on behalf of authenticated users.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 5 days ago
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 6 days ago
 <!-- PROJECTS_END -->
 
 ---

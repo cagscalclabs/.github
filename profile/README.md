@@ -18,7 +18,7 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated today
 
 **[discord-ce-server](https://github.com/cagscalclabs/discord-ce-server)** — Discord on a TI-84+ CE. Relay bot server bridging calculators to Discord over TLS, with OIDC device login and verified account linking. Bot posts on behalf of authenticated users.  
 ★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 1 week ago

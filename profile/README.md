@@ -14,11 +14,11 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/lwip-ce/)
 
 **[cryptx](https://github.com/cagscalclabs/cryptx)** — A standard-derived suite of cryptography libraries for the TI-84+ CE graphing calculator.  
-★ 14 &nbsp;•&nbsp; Assembly &nbsp;•&nbsp; updated 3 months ago  
+★ 14 &nbsp;•&nbsp; Assembly &nbsp;•&nbsp; updated 4 months ago  
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 2 days ago
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated today
 
 **[discord-ce-server](https://github.com/cagscalclabs/discord-ce-server)** — Discord on a TI-84+ CE. Relay bot server bridging calculators to Discord over TLS, with OIDC device login and verified account linking. Bot posts on behalf of authenticated users.  
 ★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 2 weeks ago

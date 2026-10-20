@@ -18,7 +18,7 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 2 days ago
 
 **[discord-ce-client](https://github.com/cagscalclabs/discord-ce-client)** — TI-84+ CE Discord client — real-time messaging over the Discord Bot API via lwIP-CE and TLS. Device-code OAuth2/OIDC login, per-server session tokens, channel/server picker, live chat and history.  
 ★ 0 &nbsp;•&nbsp; Assembly &nbsp;•&nbsp; updated 1 week ago

@@ -18,7 +18,7 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated 2 days ago
 
 **[irce](https://github.com/cagscalclabs/irce)** — A lightweight IRC client for the TI-84+ CE, powered by lwIP-CE.  
 ★ 0 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated 1 week ago

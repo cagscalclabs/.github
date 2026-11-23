@@ -10,7 +10,7 @@ no hardware crypto acceleration.
 
 <!-- PROJECTS_START -->
 **[lwip-ce](https://github.com/cagscalclabs/lwip-ce)** — An IP stack implementation for the TI-84+ CE derived from lwIP code. Implements custom memory management for <60K RAM, assembly optimizations, and a custom lightweight TLS stack engineered for the constraints of the system.  
-★ 29 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated 5 days ago  
+★ 29 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated today  
 → [Site](https://cagscalclabs.github.io/lwip-ce/)
 
 **[cryptx](https://github.com/cagscalclabs/cryptx)** — A standard-derived suite of cryptography libraries for the TI-84+ CE graphing calculator.  
@@ -18,7 +18,7 @@ no hardware crypto acceleration.
 → [Site](https://cagscalclabs.github.io/cryptx/)
 
 **[.github](https://github.com/cagscalclabs/.github)** — No description.  
-★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated today
+★ 0 &nbsp;•&nbsp; Python &nbsp;•&nbsp; updated yesterday
 
 **[irce](https://github.com/cagscalclabs/irce)** — A lightweight IRC client for the TI-84+ CE, powered by lwIP-CE.  
 ★ 0 &nbsp;•&nbsp; C &nbsp;•&nbsp; updated 1 month ago
